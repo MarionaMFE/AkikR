@@ -1,4 +1,15 @@
-adam<-function(){
+#' A Adam Function
+#'
+#' This function allows you to express your love of cats.
+#' @param
+#' @keywords none
+#' @export
+#' @examples
+#' adam()
+
+
+
+adam <- function(){
   message(" --------------------------")
   message(" Thoughthful Akika")
   message(" always giving aid and help")

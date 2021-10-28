@@ -1,3 +1,13 @@
+#' A John's Function
+#'
+#' This function allows you to express your love of cats.
+#' @param Do you love cats? Defaults to TRUE.
+#' @keywords none
+#' @export
+#' @examples
+#' john_message()
+
+
 john_message <- function(color1 = "blue", color2 = "yellow", color3 = "red"){
 
   require(ggplot2)

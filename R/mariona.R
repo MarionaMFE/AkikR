@@ -1,3 +1,15 @@
+#' A Mariona Function
+#'
+#' This function allows you to express your love of cats.
+#' @param Do you love cats? Defaults to TRUE.
+#' @keywords none
+#' @export
+#' @examples
+#' mariona()
+
+
+
+
 mariona <- function(){
 message("___________________________________")
 message("__00__00___________________________")

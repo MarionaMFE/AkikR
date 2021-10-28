@@ -1,6 +1,18 @@
+#' A DanL Function (jefe)
+#'
+#' This function allows you to express your love of cats.
+#' @param Do you love cats? Defaults to TRUE.
+#' @keywords none
+#' @export
+#' @examples
+#' DanL()
+
+
+
+
 DanL <- function(){
 require(magick)
-  tiger <- image_read('AkikR/images/Picture1.png')
+  tiger <- image_read('images/Picture1.png')
 
   tiger %>%
     image_scale("350x") %>%

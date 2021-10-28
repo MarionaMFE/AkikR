@@ -1,3 +1,13 @@
+#' A Joe's Function
+#'
+#' This function allows you to express your love of cats.
+#' @param Do you love cats? Defaults to TRUE.
+#' @keywords none
+#' @export
+#' @examples
+#' joes_message()
+
+
 joes_message <- function(){
   x <- readline("Hi Akika. Do you really want to leave DCM? :( --(Y/N)    ")
   while(!x %in% c("Y", "N")) {
@@ -23,4 +33,4 @@ joes_message <- function(){
     print("Yay! You made a great decision! JK")
   }
 }
-joes_message()
+

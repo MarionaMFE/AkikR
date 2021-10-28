@@ -12,7 +12,7 @@
 
 DanL <- function(){
 require(magick)
-  tiger <- image_read('inst/Picture1.png')
+  tiger <- image_read(normalizePath('inst/Picture1.png'))
 
   tiger %>%
     image_scale("350x") %>%
